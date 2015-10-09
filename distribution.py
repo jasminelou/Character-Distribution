@@ -1,7 +1,7 @@
 """
 distribution.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Jasmine Lou
+Credit: The internet and classmates
 
 Assignment:
 
@@ -36,3 +36,8 @@ Notice about this example:
   in the text and they are listed in the output in alphabetical order.
 * Letters that do not occur in the text are not listed in the output at all.
 """
+
+import string
+alphabet = list(string.ascii_lowercase)
+
+print(alphabet)
