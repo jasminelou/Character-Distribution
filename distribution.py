@@ -40,6 +40,8 @@ Notice about this example:
 import string
 alphabet = list(string.ascii_lowercase)
 
+list1 = []
+
 text = input("Please enter a string of text (the bigger the better): ")
 print('The distribution of characters in "' + text + '" is:')
 
@@ -47,10 +49,15 @@ text = text.lower()
 length = len(text)
 letter = 0
 
-#print(text.count('a'))
-
-if length <= letter:
+for x in alphabet:
+    number = text.count(alphabet[letter])
+    list1.append(number)
+    letter = letter+1
     
+list1.sort()
+print(list1)
+
+
 
 
 
