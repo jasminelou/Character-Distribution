@@ -53,12 +53,7 @@ for x in alphabet:
     number = text.count(alphabet[letter])
     list1.append(number)
     letter = letter+1
-    
-list1.sort()
-print(list1)
 
-
-
-
-
-
+zl = list(zip(list1,alphabet))
+zl.sort()
+print(zl[::-1])
