@@ -57,3 +57,7 @@ for x in alphabet:
 zl = list(zip(list1,alphabet))
 zl.sort()
 print(zl[::-1])
+
+for z in zl:
+    if z[0] > 0:
+        print(z[0]*z[1])
