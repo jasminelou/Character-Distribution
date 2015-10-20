@@ -58,8 +58,10 @@ zl = list(zip(list1,alphabet))
 #zl.sort()
 
 biggestnum = len(text)
+variable = 0
 
 for z in zl:
-    if z[0] == biggestnum:
-        print(z[0]*z[1])
-        biggestnum = int(biggestnum)-1
+    while biggestnum > 0
+        if z[0] = 0:
+            print(z[0]*z[1])
+            variable = int(variable)+1
