@@ -61,6 +61,7 @@ biggestnum = len(text)
 variable = 0
 
 for z in zl:
-    if z[0] == 0:
-        print(z[0]*z[1])
-            
+    while (int(biggestnum)) > 0:
+        if z[0] == 0:
+            print(z[0]*z[1])
+        biggestnum = int(biggestnum)-1
